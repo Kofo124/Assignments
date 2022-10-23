@@ -1,2 +1,2 @@
 # Assignments
-Registration page
+CSS flexbox layout and CSS grid layout
