@@ -9,38 +9,96 @@
 </head>
 
 <body>
-  <header>
+<header>
 <nav>
    <label class="logo">CorrectG</label>  
    <ul>
-     <li><a class="active" href="#">Home</a></li>
-     <li><a href="Contact.html">Contact us</a></li>
-     <li><a href="Services.html">Services</a></li>
-     <li><a href="Project.html">Projects</a></li>
+     <li><a class="active" href="#">Registration form</a></li>
+     
+     
+     <li><a href="login.html">Login</a></li>
+      <li><a href="Success.html">Success register</a></li> 
    </ul>  
 </nav>
-  
-</header>  
-  <main>
-    <img src="My pics.jpg" >
-    <h2>Chibuzo Okafor</h2> 
-    <p>This is my personal website.Iam a software enthusiast willing to learn.<br>Iam currently on scholarship  with  Zuri Ingressive4Good Organization</p>
-  <p>
-      <h3 class="Hobbies"><strong>Hobbies:</strong></h3> 
-  </p> 
-    <ol>
-      <li class="Hobbies_list_item">reading</li> 
-      <li class="Hobbies_list_item">Football</li> 
-      <li class="Hobbies_list_item">Table tennis</li>  
-    </ol>
-    <p>
-    <h3 class="Priorities and skills"><strong>Priorities and skills:</strong></h3> 
-    </p> 
-    <ul>
-      <li class="Priorities and skills_list_item">Willing to learn</li>
-      <li class="Priorities and skills_list_item">Diligent approach to work</li>
-      <li class="Priorities and skills_list_item">Managerial and marketing skills</li>
-    </ul>
+   <h1>Registration page</h1> 
+  </header> 
+  <main> 
+  <form action=""> 
+    <table> 
+      <tr>
+     <td><label for="fname">First Name</label></td> 
+        <td><input type="text" id="fname" name="fname" maxlength="10" minlength="3" required/></td>
+      </tr> 
+      <tr>
+    <td><label for="lname">Last Name</label></td>  
+    <td><input type="text" name="lname" id="lname" maxlength="10" minlength="3" required/></td>  
+    </tr> 
+    <tr> 
+      <td><label for="Phone">Phone</label></td>  
+      <td><input type="Phonel" name="Phone" id="Phone" maxlength="12" minlength="8" required/></td> 
+    </tr>   
+   
+      <tr>
+       <td><label for="Gender">Gender</label></td>
+        <td>
+        <select id="Gender" name="Gender">
+          <option value="male">male</option> 
+           <option value="female">female</option>
+          </select> 
+        </td> 
+      </tr>  
+     <tr>
+      <td><label for="Date of birth">Date of birth</label></td>
+       <td>
+         <select id="Date of birth" name="Date of birth">
+          
+          <option value="1970">1970</option>
+           <option value="1971">1971</option>
+           <option value="1972">1972</option>
+           <option value="1973">1973</option>
+           <option value="1974">1974</option>
+           <option value="1975">1975</option>
+           <option value="1976">1976</option>
+            <option value="1977">1976</option>
+         </select>
+       </td>
+   </tr> 
+    <tr>
+      <td><label for="Favorite color">Favorite color</label></td>  
+      <td>
+        <select id="Favorite color" name="Favorite color">
+         <option value="red">red</option>
+          <option value="orange">orange</option>
+          <option value="yellow">yellow</option>
+          <option value="green">green</option>
+          <option value="blue">blue</option>
+          <option value="indigo">indigo</option>
+          <option value="violet">violet</option>
+            <option value="pink">pink</option>
+            <option value="brown">brown</option>
+        </select>
+      </td> 
+   </tr>  
+       <tr>
+      <td><label for="Email">Email</label></td>  
+      <td><input type="text" name="Email" id="Email" maxlength="20" minlength="8" required/></td> 
+   </tr>  
+      <tr>
+      <td><label for="Password">Password</label></td>  
+      <td><input type="password" name="Password" id="Password" required/></td> 
+   </tr>  
+      <tr>
+      <td><label for="Confirm password">Confirm password</label></td>  
+      <td><input type="password" name="Confirm password" id="Confirm password" required/></td> 
+   </tr>
+    </table> 
+  </form>
+  </main> 
+  <footer> 
+    <input type="submit" value="submit">
+  </footer>
+
+
   <script src="script.js"></script>
 
  <!--
