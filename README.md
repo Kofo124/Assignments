@@ -1,3 +1,2 @@
 # Assignments
-Simple portofolio website 
-registration page
+Simple portofolio website and registration page
